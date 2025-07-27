@@ -27,8 +27,44 @@ This application allows you to download videos from various platforms automatica
 
 ## Installation
 
-1. Clone the repository
+1. **Clone the repository**
 
    ```bash
    git clone https://github.com/abdullahalaminz/auto-video-downloader.git
    cd auto-video-downloader
+
+
+2. **Install Node.js dependencies**
+
+   ```bash
+   npm install
+
+3. **Install yt-dlp**
+   Download and install from yt-dlp releases or via package managers.
+   Make sure yt-dlp is accessible from your terminal:
+
+   ```bash
+   yt-dlp --version
+
+3. **Install FFmpeg**
+   Download and install from FFmpeg official site or use your OS package manager.
+   Verify FFmpeg installation:
+
+   ```bash
+   ffmpeg -version
+
+
+4. ** Run the application **
+   For development mode with auto-reload (requires nodemon):
+
+   ```bash
+   npm run dev
+
+5. **Or run normally with:**
+
+   ```bash
+   node index.js
+
+6. **Note: If you don’t have nodemon installed, you can install it globally:**
+   ```bash
+   npm install -g nodemon
